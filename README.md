@@ -4,10 +4,35 @@ Full-stack IoT data processing and device control platform built with **Spring B
 
 ---
 
+### Skills Used
+
+Skills from [claude-skills](https://github.com/Jeffallan/claude-skills/tree/main/skills):
+
+| Skill | Relevance |
+|-------|-----------|
+| `spring-boot-engineer` | Spring Boot 3.3, Spring Security 6, Spring Data JPA |
+| `java-architect` | Java 21, enterprise patterns, OAuth2/JWT config |
+| `react-expert` | React 18 frontend, hooks, context, component architecture |
+| `typescript-pro` | TypeScript types, interfaces, Vite configuration |
+| `api-designer` | REST API design, DTOs, endpoint structure |
+| `postgres-pro` | PostgreSQL schema, enums, Flyway migrations |
+| `secure-code-guardian` | JWT auth, BCrypt hashing, OAuth2, CORS, input validation |
+| `devops-engineer` | Docker Compose, containerization, environment config |
+| `code-documenter` | README.md, Swagger/OpenAPI documentation |
+| `websocket-engineer` | STOMP/SockJS WebSocket, real-time MQTT-to-browser bridge |
+| `fullstack-guardian` | End-to-end full-stack integration (API ↔ UI ↔ DB) |
+
+### Prompt
+
+> create a spring boot app with react frontend. this app is for processing iot data and control devices. database is postgresql. please design REST API and cache requests on server side. also use google or facebook id to login
+
+---
+
 ## Table of Contents
 
 - [Architecture](#architecture)
 - [Tech Stack](#tech-stack)
+- [Skills Used](#skills-used)
 - [Quick Start](#quick-start)
 - [Configuration Reference](#configuration-reference)
 - [Authentication](#authentication)
