@@ -1,0 +1,16 @@
+.env
+*.log
+node_modules/
+dist/
+target/
+*.class
+*.jar
+.idea/
+.vscode/
+*.iml
+
+# Moquette embedded broker data
+backend/data/
+*.h2
+*.h2.mv.db
+*.h2.trace.db

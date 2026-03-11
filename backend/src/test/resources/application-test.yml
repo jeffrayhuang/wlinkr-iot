@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/wlinkr_iot_test
+    username: wlinkr
+    password: wlinkr_secret
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+  flyway:
+    enabled: false
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: test-google-id
+            client-secret: test-google-secret
+          facebook:
+            client-id: test-facebook-id
+            client-secret: test-facebook-secret
+
+app:
+  jwt:
+    secret: testSecretKeyThatMustBeAtLeast256BitsLongForHS256AlgorithmToWork
+    expiration-ms: 3600000
+  oauth2:
+    authorized-redirect-uri: http://localhost:5173/oauth2/redirect
